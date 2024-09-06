@@ -66,18 +66,18 @@ The project follows a modular structure based on the Page Object Model:
 ### Install Dependencies: 
 ##### Ensure you have Node.js installed, then install the required packages, including Playwright.
 
-``` bash  npm install ```
+```bash  npm install ```
 
 ### Install Playwright Browsers: Playwright requires browser binaries to be downloaded before running the tests.
-``` bash  npx playwright install ```
+```bash  npx playwright install ```
 
 ### Running Tests
 1. #### To run all tests:
 
-``` bash npx playwright test
+```bash npx playwright test
 2. #### To run a specific test:
 
-``` bash npx playwright test tests/<test-file>.spec.js 
+```bash npx playwright test tests/<test-file>.spec.js 
 3. #### You can also run tests in a headed mode (with browser UI):
 
 ```bash npx playwright test --headed
