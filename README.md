@@ -66,21 +66,21 @@ The project follows a modular structure based on the Page Object Model:
 ### Install Dependencies: 
 ##### Ensure you have Node.js installed, then install the required packages, including Playwright.
 
-```bash  npm install ```
+``` npm install ```
 
 ### Install Playwright Browsers: Playwright requires browser binaries to be downloaded before running the tests.
-```bash  npx playwright install ```
+``` npx playwright install ```
 
 ### Running Tests
 1. #### To run all tests:
 
-```bash npx playwright test
+    ````npx playwright test ````
 2. #### To run a specific test:
 
-```bash npx playwright test tests/<test-file>.spec.js 
+``` npx playwright test tests/<test-file>.spec.js ```
 3. #### You can also run tests in a headed mode (with browser UI):
 
-```bash npx playwright test --headed
+``` npx playwright test --headed ```
 ### Key Components
 - Page Object Model: Each web page is represented as a class with methods that perform actions on that page. The structure makes the code reusable across multiple tests.
 
@@ -93,7 +93,7 @@ The project follows a modular structure based on the Page Object Model:
 - Element Not Found: Use Playwright’s debugging options (`--headed, --slow-mo`) to visually inspect element locators.
 ## Contributing
 1. Fork the repository.
-2. Create a new branch: ```bash git checkout -b feature-branch.
-3. Commit your changes ```bash git commit -m 'Add feature.
-4. Push to the branch ```bash git push origin feature-branch.
+2. Create a new branch: ```bash git checkout -b feature-branch.```
+3. Commit your changes ```bash git commit -m 'Add feature.```
+4. Push to the branch ```bash git push origin feature-branch.```
 5. Open a Pull Request.
