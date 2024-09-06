@@ -1,4 +1,4 @@
-# 💎 Automation Exercise - Automated GUI Testing
+# 💎 QA Automation Exercise - Automated GUI Testing
 
 ## 💠 Automation of Test Cases Using Page Object Model with Playwright (JavaScript)
 
